@@ -1,0 +1,2347 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'tr' Physical Memory: 16252 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/GameProject
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+62115
+Successfully changed project path to: C:/GameProject
+C:/GameProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [30416] Host "[IP] 192.168.159.1 [Port] 0 [Flags] 2 [Guid] 1443762795 [EditorId] 1443762795 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D3H5I89) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [30416] Host "[IP] 192.168.159.1 [Port] 0 [Flags] 2 [Guid] 1443762795 [EditorId] 1443762795 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D3H5I89) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 9.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GameProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   27.21.14.6230
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015757 seconds.
+- Loaded All Assemblies, in  0.426 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 246 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.570 seconds
+Domain Reload Profiling: 992ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (187ms)
+		LoadAssemblies (109ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (160ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (570ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (510ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (360ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (96ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  3.331 seconds
+Refreshing native plugins compatible for Editor in 13.94 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.570 seconds
+Domain Reload Profiling: 3895ms
+	BeginReloadAssembly (1120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (251ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (1874ms)
+		LoadAssemblies (2363ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (556ms)
+			TypeCache.Refresh (539ms)
+				TypeCache.ScanAssembly (515ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (571ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (418ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (290ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
+Refreshing native plugins compatible for Editor in 4.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.2 KB). Loaded Objects now: 3534.
+Memory consumption went from 121.0 MB to 120.9 MB.
+Total: 3.437800 ms (FindLiveObjects: 0.270400 ms CreateObjectMapping: 0.223900 ms MarkObjects: 2.817000 ms  DeleteObjects: 0.125900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 433881.121920 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9326e97e2461385864aa44f9e28ada') in 0.009435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.745 seconds
+Refreshing native plugins compatible for Editor in 3.84 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.780 seconds
+Domain Reload Profiling: 2519ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (486ms)
+		LoadAssemblies (284ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (272ms)
+			TypeCache.Refresh (267ms)
+				TypeCache.ScanAssembly (256ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1780ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (334ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (207ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 5.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3058 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3538.
+Memory consumption went from 119.0 MB to 119.0 MB.
+Total: 2.678000 ms (FindLiveObjects: 0.219700 ms CreateObjectMapping: 0.194900 ms MarkObjects: 2.225700 ms  DeleteObjects: 0.036900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.729 seconds
+Refreshing native plugins compatible for Editor in 6.65 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.949 seconds
+Domain Reload Profiling: 1671ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (494ms)
+		LoadAssemblies (278ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (285ms)
+			TypeCache.Refresh (280ms)
+				TypeCache.ScanAssembly (269ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (950ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (367ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (231ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.7 KB). Loaded Objects now: 3541.
+Memory consumption went from 119.3 MB to 119.2 MB.
+Total: 2.921000 ms (FindLiveObjects: 0.267700 ms CreateObjectMapping: 0.295100 ms MarkObjects: 2.316200 ms  DeleteObjects: 0.041200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.814 seconds
+Refreshing native plugins compatible for Editor in 4.51 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.959 seconds
+Domain Reload Profiling: 1766ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (555ms)
+		LoadAssemblies (343ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (286ms)
+			TypeCache.Refresh (282ms)
+				TypeCache.ScanAssembly (272ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (959ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (377ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3544.
+Memory consumption went from 119.3 MB to 119.3 MB.
+Total: 3.089500 ms (FindLiveObjects: 0.254200 ms CreateObjectMapping: 0.257100 ms MarkObjects: 2.528000 ms  DeleteObjects: 0.049300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.791 seconds
+Refreshing native plugins compatible for Editor in 4.03 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.883 seconds
+Domain Reload Profiling: 1668ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (514ms)
+		LoadAssemblies (310ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (290ms)
+			TypeCache.Refresh (284ms)
+				TypeCache.ScanAssembly (273ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (883ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (316ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (194ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3060 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3548.
+Memory consumption went from 119.3 MB to 119.3 MB.
+Total: 2.702500 ms (FindLiveObjects: 0.211200 ms CreateObjectMapping: 0.189200 ms MarkObjects: 2.254000 ms  DeleteObjects: 0.047500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1016.222562 seconds.
+  path: Assets/Scripts/WayPointFollowe.cs
+  artifactKey: Guid(a89ddd9fc7789734b8ac622200939d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WayPointFollowe.cs using Guid(a89ddd9fc7789734b8ac622200939d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10104337090510783b699b5c7065b8a6') in 0.002527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.837 seconds
+Refreshing native plugins compatible for Editor in 5.62 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.976 seconds
+Domain Reload Profiling: 1807ms
+	BeginReloadAssembly (196ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (537ms)
+		LoadAssemblies (326ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (300ms)
+			TypeCache.Refresh (293ms)
+				TypeCache.ScanAssembly (280ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (977ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (346ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (219ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.7 KB). Loaded Objects now: 3551.
+Memory consumption went from 119.0 MB to 119.0 MB.
+Total: 2.865700 ms (FindLiveObjects: 0.237000 ms CreateObjectMapping: 0.245700 ms MarkObjects: 2.347400 ms  DeleteObjects: 0.035100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.791 seconds
+Refreshing native plugins compatible for Editor in 6.37 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.928 seconds
+Domain Reload Profiling: 1712ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (543ms)
+		LoadAssemblies (313ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (301ms)
+			TypeCache.Refresh (295ms)
+				TypeCache.ScanAssembly (283ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (929ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (307ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (192ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 5.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3060 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3554.
+Memory consumption went from 119.3 MB to 119.3 MB.
+Total: 3.110900 ms (FindLiveObjects: 0.212800 ms CreateObjectMapping: 0.185700 ms MarkObjects: 2.644000 ms  DeleteObjects: 0.067600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 354.770949 seconds.
+  path: Assets/Scripts/WayPointFollower.cs
+  artifactKey: Guid(a89ddd9fc7789734b8ac622200939d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WayPointFollower.cs using Guid(a89ddd9fc7789734b8ac622200939d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f271a821554a81dbd9a09cb16b9c50c2') in 0.002436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.729 seconds
+Refreshing native plugins compatible for Editor in 4.20 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.934 seconds
+Domain Reload Profiling: 1656ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (481ms)
+		LoadAssemblies (290ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (266ms)
+			TypeCache.Refresh (262ms)
+				TypeCache.ScanAssembly (251ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (934ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (372ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (233ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3557.
+Memory consumption went from 119.1 MB to 119.0 MB.
+Total: 2.855300 ms (FindLiveObjects: 0.301200 ms CreateObjectMapping: 0.306100 ms MarkObjects: 2.204900 ms  DeleteObjects: 0.041800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.759 seconds
+Refreshing native plugins compatible for Editor in 4.36 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.993 seconds
+Domain Reload Profiling: 1746ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (512ms)
+		LoadAssemblies (294ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (290ms)
+			TypeCache.Refresh (283ms)
+				TypeCache.ScanAssembly (271ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (993ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (329ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (204ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3561.
+Memory consumption went from 119.3 MB to 119.3 MB.
+Total: 3.006300 ms (FindLiveObjects: 0.321500 ms CreateObjectMapping: 0.259100 ms MarkObjects: 2.387400 ms  DeleteObjects: 0.037600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 130.810305 seconds.
+  path: Assets/Scripts/StickyPlatform.cs
+  artifactKey: Guid(5e4659fad62ca6e479b62b52b3403dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StickyPlatform.cs using Guid(5e4659fad62ca6e479b62b52b3403dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09aea5ef9049f9d9198ed451a2e4349') in 0.001854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.778 seconds
+Refreshing native plugins compatible for Editor in 4.60 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.971 seconds
+Domain Reload Profiling: 1742ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (524ms)
+		LoadAssemblies (292ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (305ms)
+			TypeCache.Refresh (300ms)
+				TypeCache.ScanAssembly (289ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (971ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (341ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (209ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3060 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3564.
+Memory consumption went from 119.1 MB to 119.0 MB.
+Total: 2.964100 ms (FindLiveObjects: 0.259000 ms CreateObjectMapping: 0.360200 ms MarkObjects: 2.260700 ms  DeleteObjects: 0.083700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.738 seconds
+Refreshing native plugins compatible for Editor in 4.00 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.965 seconds
+Domain Reload Profiling: 1697ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (507ms)
+		LoadAssemblies (279ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (289ms)
+			TypeCache.Refresh (284ms)
+				TypeCache.ScanAssembly (272ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (965ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (377ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (239ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 6.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3567.
+Memory consumption went from 119.3 MB to 119.3 MB.
+Total: 2.830400 ms (FindLiveObjects: 0.248800 ms CreateObjectMapping: 0.259800 ms MarkObjects: 2.268200 ms  DeleteObjects: 0.052900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.785 seconds
+Refreshing native plugins compatible for Editor in 4.70 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.045 seconds
+Domain Reload Profiling: 3823ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (532ms)
+		LoadAssemblies (326ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (277ms)
+			TypeCache.Refresh (273ms)
+				TypeCache.ScanAssembly (263ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (3046ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (400ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (258ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3570.
+Memory consumption went from 119.3 MB to 119.3 MB.
+Total: 3.004100 ms (FindLiveObjects: 0.291400 ms CreateObjectMapping: 0.210100 ms MarkObjects: 2.447800 ms  DeleteObjects: 0.054100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.853 seconds
+Refreshing native plugins compatible for Editor in 5.49 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.946 seconds
+Domain Reload Profiling: 1791ms
+	BeginReloadAssembly (210ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (545ms)
+		LoadAssemblies (341ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (311ms)
+			TypeCache.Refresh (305ms)
+				TypeCache.ScanAssembly (293ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (947ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (344ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (214ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3574.
+Memory consumption went from 119.4 MB to 119.3 MB.
+Total: 2.660300 ms (FindLiveObjects: 0.264500 ms CreateObjectMapping: 0.228800 ms MarkObjects: 2.116400 ms  DeleteObjects: 0.050100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1132.986483 seconds.
+  path: Assets/Scripts/PlayerLife.cs
+  artifactKey: Guid(bc2b72e742a4bc145a152a3db9532b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerLife.cs using Guid(bc2b72e742a4bc145a152a3db9532b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668abe7aeea88cd5f89ce3ca00dc51dd') in 0.002314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.161 seconds
+Refreshing native plugins compatible for Editor in 5.03 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.702 seconds
+Domain Reload Profiling: 3857ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (903ms)
+		LoadAssemblies (652ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (324ms)
+			TypeCache.Refresh (318ms)
+				TypeCache.ScanAssembly (304ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (2703ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (356ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (219ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 5.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3577.
+Memory consumption went from 119.1 MB to 119.1 MB.
+Total: 3.309700 ms (FindLiveObjects: 0.227400 ms CreateObjectMapping: 0.291800 ms MarkObjects: 2.731000 ms  DeleteObjects: 0.059000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.740 seconds
+Refreshing native plugins compatible for Editor in 3.99 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.991 seconds
+Domain Reload Profiling: 1725ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (497ms)
+		LoadAssemblies (278ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (289ms)
+			TypeCache.Refresh (285ms)
+				TypeCache.ScanAssembly (275ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (992ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (400ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (248ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3580.
+Memory consumption went from 119.4 MB to 119.3 MB.
+Total: 3.157500 ms (FindLiveObjects: 0.256700 ms CreateObjectMapping: 0.274200 ms MarkObjects: 2.583800 ms  DeleteObjects: 0.042100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.786 seconds
+Refreshing native plugins compatible for Editor in 6.15 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.873 seconds
+Domain Reload Profiling: 1654ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (546ms)
+		LoadAssemblies (328ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (284ms)
+			TypeCache.Refresh (279ms)
+				TypeCache.ScanAssembly (267ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (873ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (314ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (189ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.7 KB). Loaded Objects now: 3583.
+Memory consumption went from 119.4 MB to 119.3 MB.
+Total: 4.350500 ms (FindLiveObjects: 0.574500 ms CreateObjectMapping: 0.348600 ms MarkObjects: 3.325600 ms  DeleteObjects: 0.100800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.743 seconds
+Refreshing native plugins compatible for Editor in 3.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.981 seconds
+Domain Reload Profiling: 1718ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (500ms)
+		LoadAssemblies (282ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (290ms)
+			TypeCache.Refresh (286ms)
+				TypeCache.ScanAssembly (275ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (982ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (388ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (238ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3586.
+Memory consumption went from 119.4 MB to 119.3 MB.
+Total: 3.609700 ms (FindLiveObjects: 0.263200 ms CreateObjectMapping: 0.302100 ms MarkObjects: 2.997100 ms  DeleteObjects: 0.046600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.764 seconds
+Refreshing native plugins compatible for Editor in 4.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.045 seconds
+Domain Reload Profiling: 1803ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (509ms)
+		LoadAssemblies (295ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (290ms)
+			TypeCache.Refresh (285ms)
+				TypeCache.ScanAssembly (272ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1046ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (411ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (254ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3589.
+Memory consumption went from 119.4 MB to 119.3 MB.
+Total: 3.210200 ms (FindLiveObjects: 0.278500 ms CreateObjectMapping: 0.385500 ms MarkObjects: 2.477900 ms  DeleteObjects: 0.067300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1613.742977 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0001.prefab
+  artifactKey: Guid(a7177459b7e4a1b448f72b5394494dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0001.prefab using Guid(a7177459b7e4a1b448f72b5394494dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0f0aecda86c1219861f77a5c39f0e2') in 0.253653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0009.prefab
+  artifactKey: Guid(2011b65f7cbc5644591d9e8cbd6d085d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0009.prefab using Guid(2011b65f7cbc5644591d9e8cbd6d085d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d75301f1aad59386d8bf1374673790') in 0.015534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0059.prefab
+  artifactKey: Guid(0ec90ac53b9d49f4eb829ffa0d3fdb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0059.prefab using Guid(0ec90ac53b9d49f4eb829ffa0d3fdb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21a2140707eaaf6bb2b70a4f3779d06') in 0.023604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0039.prefab
+  artifactKey: Guid(2008864de198ad7428e81e83e7642788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0039.prefab using Guid(2008864de198ad7428e81e83e7642788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24fe4605fbafd5004be473c4d5cdbbc9') in 0.026724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0012.prefab
+  artifactKey: Guid(955fbdfa07736ca4d969e6cead5a6eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0012.prefab using Guid(955fbdfa07736ca4d969e6cead5a6eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119656bfa20fdc3059f1bc8125419bec') in 0.027487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0019.prefab
+  artifactKey: Guid(7e8d7b513e6f74542906a7a08756add0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0019.prefab using Guid(7e8d7b513e6f74542906a7a08756add0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17772c4d706b9288cac92e5fbac9520') in 0.026513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0018.prefab
+  artifactKey: Guid(8db9525799be8444dac2ffdd9c0f5043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0018.prefab using Guid(8db9525799be8444dac2ffdd9c0f5043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c1011e8960d9b50fb259ebdcb15b73') in 0.026084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0058.prefab
+  artifactKey: Guid(4f0ded2406341b341aec3bb82aa3bbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0058.prefab using Guid(4f0ded2406341b341aec3bb82aa3bbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a2c8325ef01a9c905ff633f79ec6d2') in 0.025816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0056.prefab
+  artifactKey: Guid(d1af808d0988dcf439ae7a2a405aa08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0056.prefab using Guid(d1af808d0988dcf439ae7a2a405aa08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972631e0eedb623524c8fbd3e3415aac') in 0.027993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0049.prefab
+  artifactKey: Guid(cf4e15af95dd52f489ea1e0c4a4a98f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0049.prefab using Guid(cf4e15af95dd52f489ea1e0c4a4a98f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc6c5e477be9ec94b4007d37ff8042f') in 0.027088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0021.prefab
+  artifactKey: Guid(c0c19031ee9fb414297f73c7fd175d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0021.prefab using Guid(c0c19031ee9fb414297f73c7fd175d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b59af507a7d61bbce90d9a13f2b335') in 0.027175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0054.prefab
+  artifactKey: Guid(a34b1ba23b560584d95fde72f9c67752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0054.prefab using Guid(a34b1ba23b560584d95fde72f9c67752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f623151b4b82b600625be73a3707e093') in 0.028594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0062.prefab
+  artifactKey: Guid(159336dba022ee644bf67c479ace0397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0062.prefab using Guid(159336dba022ee644bf67c479ace0397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0f13fff8c29e49731ba2954a5ab16c') in 0.024403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0065.prefab
+  artifactKey: Guid(88e586a00d36d6841bd165e0fea8a481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0065.prefab using Guid(88e586a00d36d6841bd165e0fea8a481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e1a473cce8e1d45250a7dda91f4983') in 0.026695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0034.prefab
+  artifactKey: Guid(79fea97d25cbcc842b1e3889980d17c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0034.prefab using Guid(79fea97d25cbcc842b1e3889980d17c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6144e7089c2b90282f1cc36bc4008d') in 0.024663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0064.prefab
+  artifactKey: Guid(32d15b72a59ba6248a07ef6a9456254a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0064.prefab using Guid(32d15b72a59ba6248a07ef6a9456254a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293ab201ecc62faa8a933d97596c63c1') in 0.025211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0070.prefab
+  artifactKey: Guid(27c27dea734fe514a83e2b674184cf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0070.prefab using Guid(27c27dea734fe514a83e2b674184cf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe99338c8b31fb370e66263df93fcf5') in 0.038381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0048.prefab
+  artifactKey: Guid(d67376f95b58d5f4da18ce52f18e4429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0048.prefab using Guid(d67376f95b58d5f4da18ce52f18e4429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e538a461620d797c01502da81b21414') in 0.036656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0067.prefab
+  artifactKey: Guid(5f3c9956778fb4d47a1d438c63869319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0067.prefab using Guid(5f3c9956778fb4d47a1d438c63869319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d943e08a02ca73084079425ed0b7a6') in 0.016213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0036.prefab
+  artifactKey: Guid(be912fff1492c024ba9f43699f9953bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0036.prefab using Guid(be912fff1492c024ba9f43699f9953bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e8d3e4050c0105127baa4591320d8b') in 0.016909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0004.prefab
+  artifactKey: Guid(9f8eeca045e35f242a1be8fd770180a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0004.prefab using Guid(9f8eeca045e35f242a1be8fd770180a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a709d81787d6e56a148add9a95eb806e') in 0.019964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0035.prefab
+  artifactKey: Guid(348bb681332e39040bd90beec1943d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0035.prefab using Guid(348bb681332e39040bd90beec1943d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63465368ef07eaca77fd725d7a13df39') in 0.014946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0010.prefab
+  artifactKey: Guid(751acc62e05913449989357b616bca06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0010.prefab using Guid(751acc62e05913449989357b616bca06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1cfb0292bada5795ba1ece63ca9e0d') in 0.022269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0022.prefab
+  artifactKey: Guid(df858e4d32ff8ea4f8e95c0aef58bf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0022.prefab using Guid(df858e4d32ff8ea4f8e95c0aef58bf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c186eab7702ba92f3a73c10d3959e5') in 0.017565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0006.prefab
+  artifactKey: Guid(9fdc33d0a12f5c241b92df1932ab6f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0006.prefab using Guid(9fdc33d0a12f5c241b92df1932ab6f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47331e68a74fca3a03831d1c7546fb1a') in 0.016536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0061.prefab
+  artifactKey: Guid(07cc1a18453f6b84e8ce1df17693df65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0061.prefab using Guid(07cc1a18453f6b84e8ce1df17693df65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6caa0ba5b63ba71c9c1dcc85f5106f59') in 0.029996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0042.prefab
+  artifactKey: Guid(6c5828e5723d81e4596e8e3e8038460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0042.prefab using Guid(6c5828e5723d81e4596e8e3e8038460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a45a9c65fa89473cd46e265393cd7ef') in 0.015989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0047.prefab
+  artifactKey: Guid(1cbab860f30921344967f3146cc02ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0047.prefab using Guid(1cbab860f30921344967f3146cc02ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d43f64acdc677ea7addd4cbd114325') in 0.014852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0055.prefab
+  artifactKey: Guid(58b578c0a90b0e34abab7f4bc7b31ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0055.prefab using Guid(58b578c0a90b0e34abab7f4bc7b31ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2429e3246863a15eef391ed8278b0307') in 0.014846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0013.prefab
+  artifactKey: Guid(de63c100df024b9468c903a3f9755bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_16x16/isometric_pixel_0013.prefab using Guid(de63c100df024b9468c903a3f9755bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca994fb3973e543ba4c1374aaa78ac78') in 0.013657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 23.751674 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0002.prefab
+  artifactKey: Guid(f9e8de9a259544d4abf62f44ee21bf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0002.prefab using Guid(f9e8de9a259544d4abf62f44ee21bf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79cd03b58426d92c656e27eef4d71b56') in 0.027516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0003.prefab
+  artifactKey: Guid(e1105bbe355d7bf45bb8750d95e7bf5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0003.prefab using Guid(e1105bbe355d7bf45bb8750d95e7bf5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32ac27de13a3f7701a0024f527046e9') in 0.028257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0009.prefab
+  artifactKey: Guid(54bcfd56247558b47a3a1be2dfd125d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0009.prefab using Guid(54bcfd56247558b47a3a1be2dfd125d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9f9c1d01b107f9553c82cc0055f815') in 0.025120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0015.prefab
+  artifactKey: Guid(db2eda0e1d9a398449d33ae2302b6aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0015.prefab using Guid(db2eda0e1d9a398449d33ae2302b6aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ae144f877bffa1b3590c0050ea28b9') in 0.017037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0011.prefab
+  artifactKey: Guid(1a3f7f264d992814e90e1a0f4946db94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0011.prefab using Guid(1a3f7f264d992814e90e1a0f4946db94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba780df56d2295f08366b6346d76f93') in 0.016432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0007.prefab
+  artifactKey: Guid(8150070dadd33e34f8d8d058ec3ad564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0007.prefab using Guid(8150070dadd33e34f8d8d058ec3ad564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc93f67a28b8bc24db11dcd0cf4ec072') in 0.014445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0028.prefab
+  artifactKey: Guid(0f6abe3fd5a0840459f2e33ebb6a157f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0028.prefab using Guid(0f6abe3fd5a0840459f2e33ebb6a157f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f17219aa25829ca1bda69eae8c64cb7') in 0.014952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0033.prefab
+  artifactKey: Guid(ca3be6afde3f6a546adaaff041428575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0033.prefab using Guid(ca3be6afde3f6a546adaaff041428575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f9f3a63d1c6f837c46869ba0c5684b') in 0.014162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0039.prefab
+  artifactKey: Guid(9be393d6babcd9048b4bce66ed4ada08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0039.prefab using Guid(9be393d6babcd9048b4bce66ed4ada08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71698314086262fc90c4e48d3c1d25c') in 0.015447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0045.prefab
+  artifactKey: Guid(e3cb627ad2d211f48a93b7241079012d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0045.prefab using Guid(e3cb627ad2d211f48a93b7241079012d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5448617620b0a70e6a494b2dd5460fa') in 0.016024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0048.prefab
+  artifactKey: Guid(02e3b3b26d962ea42a0f9216956ec0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0048.prefab using Guid(02e3b3b26d962ea42a0f9216956ec0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0baf8607228b45ae2fbd0a36766c2c52') in 0.053154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0054.prefab
+  artifactKey: Guid(2c5c94acecdab7e48856bbca4ddaf0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0054.prefab using Guid(2c5c94acecdab7e48856bbca4ddaf0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad339f446b2bcbd100fa4dc6676d7cb') in 0.020233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0063.prefab
+  artifactKey: Guid(ac4d4f17b15fb034098d7e651513e50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0063.prefab using Guid(ac4d4f17b15fb034098d7e651513e50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ecf8ba3bb49ecad9ef54de641f61d0') in 0.039393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0064.prefab
+  artifactKey: Guid(f441a5306f0c967468def5381652a291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0064.prefab using Guid(f441a5306f0c967468def5381652a291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72c1e86b6a010999cbd11cf3bc02c25') in 0.039708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0043.prefab
+  artifactKey: Guid(3924cda4edeb3ed4ab9585659ade52b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0043.prefab using Guid(3924cda4edeb3ed4ab9585659ade52b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129dba350f2166dbd7a212b909996dd3') in 0.018539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0037.prefab
+  artifactKey: Guid(0a4668b8977114a40b18acb738bdcf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0037.prefab using Guid(0a4668b8977114a40b18acb738bdcf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcea0522ca280f0b5807788c533f0023') in 0.047697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0053.prefab
+  artifactKey: Guid(4861b027de4cafc4595af24cb8163d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0053.prefab using Guid(4861b027de4cafc4595af24cb8163d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1d9aa0d024d73a17a1cd98d872e7d9') in 0.037648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0041.prefab
+  artifactKey: Guid(49d364b1254e9724588e293b703ee560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0041.prefab using Guid(49d364b1254e9724588e293b703ee560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb705df4125ab5c9ad66eeee6cc1294') in 0.026525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0068.prefab
+  artifactKey: Guid(87ebdbdab12a26542aa6351728386b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0068.prefab using Guid(87ebdbdab12a26542aa6351728386b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f822f67607f073ec455148341dafb4') in 0.013957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0056.prefab
+  artifactKey: Guid(00d1b711b7210cf43b4c69338a3b115c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0056.prefab using Guid(00d1b711b7210cf43b4c69338a3b115c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a4385687a232499d8175fbda31c4e1') in 0.019058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0013.prefab
+  artifactKey: Guid(a54fd98065ee8a74fa4980af175b2ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0013.prefab using Guid(a54fd98065ee8a74fa4980af175b2ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335a843b3d11e95d8be5825cbf986bba') in 0.017954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0031.prefab
+  artifactKey: Guid(5f822ce1345613c4da9efe49a3efda82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0031.prefab using Guid(5f822ce1345613c4da9efe49a3efda82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac5c90b87bb11302ae5a0de2f0717d8') in 0.016285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0066.prefab
+  artifactKey: Guid(a8f3835a801215c44baea6108acd720f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0066.prefab using Guid(a8f3835a801215c44baea6108acd720f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f4f8025d8eba2644fbff631b643e6f') in 0.015452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0023.prefab
+  artifactKey: Guid(e1e052c9c136f7147bf55947f8929b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0023.prefab using Guid(e1e052c9c136f7147bf55947f8929b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08cb1365a35be7a5a1986e637679d2d8') in 0.015415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0036.prefab
+  artifactKey: Guid(179f672093901864992cc3b58ab7d78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0036.prefab using Guid(179f672093901864992cc3b58ab7d78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea1a1645ded8dd36f2d6c02a6929836') in 0.017097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0019.prefab
+  artifactKey: Guid(e7bc597abaf89c749a7d8032aaf02ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0019.prefab using Guid(e7bc597abaf89c749a7d8032aaf02ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39f256826d14dddc93a7f081181264b') in 0.017246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 14.452123 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0073.prefab
+  artifactKey: Guid(958fb328c63df584ebfa9eb3999b8333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0073.prefab using Guid(958fb328c63df584ebfa9eb3999b8333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353e4775e6f22cda8c1e8356c3d7ca7f') in 0.024732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0075.prefab
+  artifactKey: Guid(af33504918b311a4f8335ab835a94e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0075.prefab using Guid(af33504918b311a4f8335ab835a94e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02667706ffff438339d833fb93f2a45f') in 0.015589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0081.prefab
+  artifactKey: Guid(dbaf078a261e9964ba326502eafea414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0081.prefab using Guid(dbaf078a261e9964ba326502eafea414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0e971d85459de16edb4146cf6f65cb') in 0.019473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0078.prefab
+  artifactKey: Guid(d80f79fe61aec084bad6d12171f51ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0078.prefab using Guid(d80f79fe61aec084bad6d12171f51ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e31584cec9efa1054a74ffa54bffa36') in 0.019904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0086.prefab
+  artifactKey: Guid(824e35d1a5a96784783ca44c23c0ec7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0086.prefab using Guid(824e35d1a5a96784783ca44c23c0ec7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f92d8ae1d9cc5671f555ee7f1ffa2d7') in 0.050516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0100.prefab
+  artifactKey: Guid(09135d02f8dacdf45b397185ec4c4f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0100.prefab using Guid(09135d02f8dacdf45b397185ec4c4f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1685a624bd9307d5b4697cccbdd32ae') in 0.017062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0107.prefab
+  artifactKey: Guid(9076178890339f74fadb3a766038d338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0107.prefab using Guid(9076178890339f74fadb3a766038d338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1fb62f4a1f809b1380ae771edb74e3') in 0.017814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0095.prefab
+  artifactKey: Guid(aee8c84daf3844d458624f102f07e9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0095.prefab using Guid(aee8c84daf3844d458624f102f07e9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad51819040e76c29505a551b61715a2') in 0.020220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0118.prefab
+  artifactKey: Guid(df0a7f9e26c0e614d858d58f8ec24e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0118.prefab using Guid(df0a7f9e26c0e614d858d58f8ec24e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be0e46108913bb75b3a09e7fe197ee8') in 0.014475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0125.prefab
+  artifactKey: Guid(112e78fcb2e49eb4ca583a64bde306fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0125.prefab using Guid(112e78fcb2e49eb4ca583a64bde306fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a827eb612d4a312fe57e749b004916bc') in 0.020850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0116.prefab
+  artifactKey: Guid(a418fd25d5be9e243809ab8c7f12a00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0116.prefab using Guid(a418fd25d5be9e243809ab8c7f12a00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003071878da785fbb03bd93b9da74747') in 0.019991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0115.prefab
+  artifactKey: Guid(54f66ab1ecdc8d944b77a875d1955e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0115.prefab using Guid(54f66ab1ecdc8d944b77a875d1955e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919dc74bd350abbe48b18f7ef5406b39') in 0.022194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0119.prefab
+  artifactKey: Guid(5d6b90a60e12d8a4e9537c2832f9938f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0119.prefab using Guid(5d6b90a60e12d8a4e9537c2832f9938f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be9debf9096bc9b4eae7141744a932e') in 0.018028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0099.prefab
+  artifactKey: Guid(5680f75d0381a5f4598b8007030011e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0099.prefab using Guid(5680f75d0381a5f4598b8007030011e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1e9240ebd8307e31553a28b58d5cff') in 0.031037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0091.prefab
+  artifactKey: Guid(b0ad84bcaf02ed844918e417d697c640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0091.prefab using Guid(b0ad84bcaf02ed844918e417d697c640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14fcda73b8a2d0055f743b640dddc90') in 0.020298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0113.prefab
+  artifactKey: Guid(8af85e94e66a0c24598ebdb46adae285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0113.prefab using Guid(8af85e94e66a0c24598ebdb46adae285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead3560dd4171d8fdd5e2212e0ab7a53') in 0.027432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0121.prefab
+  artifactKey: Guid(be5f33ed01495434fad0f00d88db193a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0121.prefab using Guid(be5f33ed01495434fad0f00d88db193a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be467c610b418a25d07d6cd9030764c4') in 0.035521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0085.prefab
+  artifactKey: Guid(4d910add11017d34981bb55b80621fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0085.prefab using Guid(4d910add11017d34981bb55b80621fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78cc40a063b2df2e8053593af58f071') in 0.025978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0109.prefab
+  artifactKey: Guid(2dc436fbcc9c5ef4a83fff48340da842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0109.prefab using Guid(2dc436fbcc9c5ef4a83fff48340da842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ba190ae98d20252a0af2b09e66a9de') in 0.019080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.027561 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0129.prefab
+  artifactKey: Guid(fcb38e5e258eee64bb000ad75dab58a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0129.prefab using Guid(fcb38e5e258eee64bb000ad75dab58a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b48c5bb307a876f9cec2021ea4769b7') in 0.016990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0133.prefab
+  artifactKey: Guid(4cbc0a7b6a4a24c41890c54e7159b35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0133.prefab using Guid(4cbc0a7b6a4a24c41890c54e7159b35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd761214a1c46108ec65b2e4e7b79f6a6') in 0.018846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0137.prefab
+  artifactKey: Guid(333c979291aad954f8bbf7d3c7beaee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0137.prefab using Guid(333c979291aad954f8bbf7d3c7beaee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28cecef052512d0c3528845867299a0') in 0.019105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0138.prefab
+  artifactKey: Guid(d1cab4450531c9f419d3312101891a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0138.prefab using Guid(d1cab4450531c9f419d3312101891a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223295757df744b662397113ebc416a0') in 0.018205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0141.prefab
+  artifactKey: Guid(da8017b1ec2befe4da1432ab7a2dce60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0141.prefab using Guid(da8017b1ec2befe4da1432ab7a2dce60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d050f4152fc4d00803e33de3cd78c4') in 0.017011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0144.prefab
+  artifactKey: Guid(2d802df4a92a7544f8f83cc8952b0fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0144.prefab using Guid(2d802df4a92a7544f8f83cc8952b0fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2fee2a906760a054731b403ff240ed9') in 0.013425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0147.prefab
+  artifactKey: Guid(2831c63a31ddfa94297a121fe62d1f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0147.prefab using Guid(2831c63a31ddfa94297a121fe62d1f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe2cfe5becf307bdbc7873dd8a5ae04') in 0.019161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0153.prefab
+  artifactKey: Guid(7d1aab77cb966fd4190b2cde4422e56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0153.prefab using Guid(7d1aab77cb966fd4190b2cde4422e56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62cfeb529d7ef00832277453d117fa6b') in 0.017865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0154.prefab
+  artifactKey: Guid(a89958782d6356548ac395a8eb696084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0154.prefab using Guid(a89958782d6356548ac395a8eb696084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40eeb5c008473f5ae96efc441dc38050') in 0.016867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0162.prefab
+  artifactKey: Guid(34070e2037cd351468cffb6c3075c758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0162.prefab using Guid(34070e2037cd351468cffb6c3075c758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a2d455dcf94cc8719083c8ed8ec568') in 0.018605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0167.prefab
+  artifactKey: Guid(6f9c2bfe1c7157d4f98789e05b4434b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0167.prefab using Guid(6f9c2bfe1c7157d4f98789e05b4434b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3deb1c02d26cb8fe8dbb26f51c5566') in 0.016092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0165.prefab
+  artifactKey: Guid(1d90b1e33a0da384b8102ccff37bca1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0165.prefab using Guid(1d90b1e33a0da384b8102ccff37bca1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac03e4dfbd43698628a11c7468a22f2') in 0.014371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0169.prefab
+  artifactKey: Guid(c566304d3c92913498771692f2235803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0169.prefab using Guid(c566304d3c92913498771692f2235803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0367b268f39daae0659244f494e82eaa') in 0.017370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0175.prefab
+  artifactKey: Guid(f5cd1c1501ae43547bfd0d7b8dc36b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0175.prefab using Guid(f5cd1c1501ae43547bfd0d7b8dc36b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6279ad0c1526c186428f414bbb34fe50') in 0.017637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0173.prefab
+  artifactKey: Guid(b1453616bf922524ca1e0e167779fbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0173.prefab using Guid(b1453616bf922524ca1e0e167779fbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e386812803b8e6e7a5d56a3ac67977') in 0.016314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0183.prefab
+  artifactKey: Guid(239d90ac4a39bb74bbd0b986060f609a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0183.prefab using Guid(239d90ac4a39bb74bbd0b986060f609a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b551e088f8a1b7cb862dbb73329119') in 0.017131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0189.prefab
+  artifactKey: Guid(2d29be95790d7324c8bd7f05d4d30c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0189.prefab using Guid(2d29be95790d7324c8bd7f05d4d30c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51b699c7e55db68ca69bf154e215c21') in 0.014556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0194.prefab
+  artifactKey: Guid(7ec86574a12d33449bb18448696d451e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0194.prefab using Guid(7ec86574a12d33449bb18448696d451e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dccd9864b2ecc98c77ce4b088b96c0b9') in 0.016348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0184.prefab
+  artifactKey: Guid(ee782af12777b6243a010e312cec4f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0184.prefab using Guid(ee782af12777b6243a010e312cec4f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd999242c4c9fa4591d3de9552cf5ff16') in 0.018828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0187.prefab
+  artifactKey: Guid(13d1b814018b57c4c8714f13b6838c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0187.prefab using Guid(13d1b814018b57c4c8714f13b6838c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202d1d8e7ce1ff64ac9da1c740b60f00') in 0.017755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0170.prefab
+  artifactKey: Guid(8bf52b56459ce8f408be65fc07a0bfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0170.prefab using Guid(8bf52b56459ce8f408be65fc07a0bfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1459a876cc871e1c8686a35b31c77ccf') in 0.015670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0150.prefab
+  artifactKey: Guid(ff4d1d1f69666e44eb41b99479f8b9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0150.prefab using Guid(ff4d1d1f69666e44eb41b99479f8b9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5fc73564b0259ea9fc835c136a55ad') in 0.020372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0178.prefab
+  artifactKey: Guid(1d9b50f4a2931124ba4efddce71c44ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0178.prefab using Guid(1d9b50f4a2931124ba4efddce71c44ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c084ecc92b638ab3547eaf7dba3fe9') in 0.019202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.651650 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0199.prefab
+  artifactKey: Guid(3b1be965e3752324c8f2ffb6cdd83a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0199.prefab using Guid(3b1be965e3752324c8f2ffb6cdd83a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a99b45751e0ca63edc481ba4c1c47a7') in 0.017538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0200.prefab
+  artifactKey: Guid(a3b4be36fbb701d4e96086f5cd7aff8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0200.prefab using Guid(a3b4be36fbb701d4e96086f5cd7aff8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aecb63933b59731a38f60ee873b14211') in 0.014430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0206.prefab
+  artifactKey: Guid(e8fe05a9ad81f0a4fb650ccb30b65aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0206.prefab using Guid(e8fe05a9ad81f0a4fb650ccb30b65aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70376adaff40ef8e00e4ae9ae9dff89f') in 0.019432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0208.prefab
+  artifactKey: Guid(0c3a861587eb80e47b1100ee38cb66cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0208.prefab using Guid(0c3a861587eb80e47b1100ee38cb66cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2895342675801a7ac78da0763ec88364') in 0.050120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0207.prefab
+  artifactKey: Guid(f8801b604f76add408f2284352990744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/Prefabs/assets_pixel_50x50/isometric_pixel_0207.prefab using Guid(f8801b604f76add408f2284352990744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da66668ea25099be306189fb695447cb') in 0.016710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.520 seconds
+Refreshing native plugins compatible for Editor in 12.28 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.135 seconds
+Domain Reload Profiling: 4639ms
+	BeginReloadAssembly (293ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (1061ms)
+		LoadAssemblies (621ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (579ms)
+			TypeCache.Refresh (567ms)
+				TypeCache.ScanAssembly (543ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (3136ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (932ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (72ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (186ms)
+			ProcessInitializeOnLoadAttributes (571ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (39ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 12.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3598.
+Memory consumption went from 119.4 MB to 119.4 MB.
+Total: 6.422600 ms (FindLiveObjects: 0.467400 ms CreateObjectMapping: 0.480200 ms MarkObjects: 5.377400 ms  DeleteObjects: 0.095100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.509 seconds
+Refreshing native plugins compatible for Editor in 13.92 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.626 seconds
+Domain Reload Profiling: 4124ms
+	BeginReloadAssembly (295ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (1043ms)
+		LoadAssemblies (585ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (610ms)
+			TypeCache.Refresh (596ms)
+				TypeCache.ScanAssembly (571ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2627ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (953ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (83ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (180ms)
+			ProcessInitializeOnLoadAttributes (592ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (33ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 14.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (36.2 KB). Loaded Objects now: 3601.
+Memory consumption went from 119.6 MB to 119.6 MB.
+Total: 6.950700 ms (FindLiveObjects: 0.376800 ms CreateObjectMapping: 0.419900 ms MarkObjects: 6.016300 ms  DeleteObjects: 0.136400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.712 seconds
+Refreshing native plugins compatible for Editor in 12.70 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.729 seconds
+Domain Reload Profiling: 4430ms
+	BeginReloadAssembly (280ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (1224ms)
+		LoadAssemblies (602ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (763ms)
+			TypeCache.Refresh (749ms)
+				TypeCache.ScanAssembly (722ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2732ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (966ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (81ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (186ms)
+			ProcessInitializeOnLoadAttributes (595ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (41ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 12.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3604.
+Memory consumption went from 119.6 MB to 119.6 MB.
+Total: 6.321700 ms (FindLiveObjects: 0.550100 ms CreateObjectMapping: 0.571300 ms MarkObjects: 5.118500 ms  DeleteObjects: 0.080500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
